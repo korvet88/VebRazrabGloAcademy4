@@ -1,10 +1,30 @@
 .header {
     font-style: 20px;
-
+    line-height: 1.5;
+    margin: 60px auto;
 }
 .header span {
     display: block;
 }
-.container, .col-lg-6 {
-    border: 2px solid red;
+.section {
+    background-color: #ccc;
+    padding: 30px;
+}
+/* .container, .col-lg-6 {
+    /* border: 2px solid red; */
+.form {
+    border: 5px solid #2727d9;
+    padding: 30px 20px;
+}
+.form-input {
+    margin-bottom: 12px;
+}
+.form-header {
+    margin-bottom: 20px;
+    font-style: 20px;
+    font-weight: 900px;
+}
+.form-btn {
+    background-color: #2727d9;
+    margin: 10px auto;
 }
