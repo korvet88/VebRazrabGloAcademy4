@@ -1,4 +1,27 @@
-.font(fz : 15px) {
+// .header {
+//     font-size: 20px;
+//     line-height: 1.5;
+//     margin: 20px;
+//     span {
+//         display: block;
+//     }
+//     &.hover {
+//         background-color: #aeaeae;
+//     }
+
+// }
+.font(@fz: 20px) {
     font-size: @fz;
-    background-color: #aeaeae;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+@backgraund: #fff;
+
+.header {
+    .font(15px);
+}
+.section-heder {
+    .font();
+    color: @backgraund;
 }

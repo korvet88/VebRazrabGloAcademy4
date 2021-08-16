@@ -1,0 +1,11 @@
+.header {
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.section-heder {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #ffffff;
+}
